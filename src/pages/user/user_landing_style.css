@@ -1,0 +1,22 @@
+.navigation>li>a {
+    color: #373f50;
+    text-decoration: none;
+}
+
+.header-toolbar>a {
+    color: #373f50;
+    margin-left: 10px;
+}
+
+.btn_hover_effect:hover {
+    color:#fff;
+}
+
+.btn_hover_effect_dark:hover {
+    color:#e0e0e0;
+}
+
+.btn_hover_effect{
+    color:#b6b5b5;
+}
+
