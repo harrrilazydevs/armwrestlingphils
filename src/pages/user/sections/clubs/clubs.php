@@ -140,7 +140,7 @@
             </div>
         </div>
         <div class="row" style="margin-top:1em" id="card_collection_clubs">
-           
+
 
             <div class="col-4 mx-0">
                 <div class="club_card p-2 pb-0">
