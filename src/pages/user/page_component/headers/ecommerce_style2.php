@@ -1,6 +1,6 @@
 <section class=" d-none d-sm-none d-md-none d-lg-block">
 
-    <div class="d-flex align-items-center header_design" >
+    <div class="d-flex align-items-center header_design">
         <div class="container-fluid">
             <div class="row">
                 <div class="col justify-content-between">
@@ -59,4 +59,5 @@
     </div>
 
 </section>
+
 <script src="src\pages\user\page_component\headers\ecommerce_style2.js"></script>

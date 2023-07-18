@@ -9,7 +9,7 @@
         <?php
 
         include 'src\pages\user\sections\clubs\clubs.php';
-        // include 'src\components\kanban\kanban.php';
+        include 'src\pages\user\sections\merchandise\merchandise.php';
 
         ?>
 

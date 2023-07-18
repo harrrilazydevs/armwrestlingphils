@@ -1,4 +1,4 @@
-<section class="page" attr-type="main" id="page_club" style="color:#21313C!important">
+<section class="page" attr-type="main" id="page_merchandise" style="color:#21313C!important">
 
     <div class="container d-none d-sm-none d-md-none d-lg-block" style="margin-top:-55px;">
         <div class="row">
@@ -49,7 +49,7 @@
 
                         <div class="row" style="margin-top:1em">
                             <div class="col-4 mx-0">
-                                <div class="club_card p-2 pb-0">
+                                <div class="shop_card p-2 pb-0">
                                     <div class="text-center">
                                         <img src="src\public\club_logos\caf.jpg" height="165px" width="60%" alt="">
                                     </div>
@@ -58,7 +58,7 @@
                             </div>
 
                             <div class="col-4 mx-0">
-                                <div class="club_card p-2 pb-0">
+                                <div class="shop_card p-2 pb-0">
                                     <div class="text-center">
                                         <img src="src\public\club_logos\caw.png" height="165px" width="60%" alt="">
                                     </div>
@@ -67,7 +67,7 @@
                             </div>
 
                             <div class="col-4 mx-0">
-                                <div class="club_card p-2 pb-0">
+                                <div class="shop_card p-2 pb-0">
                                     <div class="text-center">
                                         <img src="src\public\club_logos\tatag.png" height="165px" width="60%" alt="">
                                     </div>
@@ -76,7 +76,7 @@
                             </div>
 
                             <div class="col-4 mx-0">
-                                <div class="club_card p-2 pb-0">
+                                <div class="shop_card p-2 pb-0">
                                     <div class="text-center">
                                         <img src="src\public\club_logos\binangonan.jpg" height="165px" width="60%" alt="">
                                     </div>
@@ -85,7 +85,7 @@
                             </div>
 
                             <div class="col-4 mx-0">
-                                <div class="club_card p-2 pb-0">
+                                <div class="shop_card p-2 pb-0">
                                     <div class="text-center">
                                         <img src="src\public\club_logos\manila.png" height="165px" width="60%" alt="">
                                     </div>
@@ -102,88 +102,5 @@
         </div>
     </div>
 
+    <script src="src\pages\user\sections\merchandise\merchandise.js"></script>
 </section>
-
-<section class="page" attr-type="sub" id="page_club_home">
-
-    <div class="container d-none d-sm-none d-md-none d-lg-block">
-
-        <div class="row">
-            <div class="col">
-                <div class="d-flex justify-content-center position-relative">
-                    <img src="src\public\club_cover\tatag.png" width="80%" class="rounded" alt="">
-                </div>
-            </div>
-        </div>
-
-        <!-- DYNAMIC CONTENT -->
-        <div class="row">
-            <div class="col mx-0 text-center" style="margin-top:3em; ">
-                <button class="btn btn-primary btn-sm" id="btn_view_roster">View Roster</button>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<section class="page" attr-type="sub" id="page_club_roster">
-
-    <div class="container d-none d-sm-none d-md-none d-lg-block">
-
-        <div class="row">
-            <div class="col">
-                <div class="d-flex justify-content-center position-relative">
-                    <!-- <img src="src\public\club_cover\tatag.png" width="80%" class="rounded" alt=""> -->
-                    <h2 class=" position-absolute text-light" style="font-family: 'Oswald', sans-serif; letter-spacing: 2px; top:1.5em; font-size:30px">ROSTER</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row" style="margin-top:1em" id="card_collection_clubs">
-           
-
-            <div class="col-4 mx-0">
-                <div class="club_card p-2 pb-0">
-                    <div class="text-center">
-                        <img src="src\public\club_logos\caw.png" height="165px" width="60%" alt="">
-                    </div>
-                    <p class="item_title">Cavite Arm Warriors</p>
-                </div>
-            </div>
-
-            <div class="col-4 mx-0">
-                <div class="club_card p-2 pb-0">
-                    <div class="text-center">
-                        <img src="src\public\club_logos\tatag.png" height="165px" width="60%" alt="">
-                    </div>
-                    <p class="item_title">Titan Arms Taguig</p>
-                </div>
-            </div>
-
-            <div class="col-4 mx-0">
-                <div class="club_card p-2 pb-0">
-                    <div class="text-center">
-                        <img src="src\public\club_logos\binangonan.jpg" height="165px" width="60%" alt="">
-                    </div>
-                    <p class="item_title">Binangonan Arm Squad</p>
-                </div>
-            </div>
-
-            <div class="col-4 mx-0">
-                <div class="club_card p-2 pb-0">
-                    <div class="text-center">
-                        <img src="src\public\club_logos\manila.png" height="165px" width="60%" alt="">
-                    </div>
-                    <p class="item_title">Manila Pullers</p>
-                </div>
-            </div>
-
-        </div>
-
-
-    </div>
-
-</section>
-
-
-<script src="src\pages\user\sections\clubs\clubs.js"></script>

@@ -1,6 +1,4 @@
 <?php
-
-
 session_start();
 
 $_SESSION['sesh_authorized'] = 1;
@@ -35,6 +33,7 @@ $_SESSION['SYS_IMAGES_LOGO'] = "src/img\aw_logo.png";
             <link rel="stylesheet" href="src/pages/user/user_landing_style.css">
             <link rel="stylesheet" href="src/pages/user/page_component/headers/ecommerce_style2.css">
             <link rel="stylesheet" href="src/pages/user/sections/clubs/clubs.css">
+            <link rel="stylesheet" href="src/pages/user/sections/merchandise/merchandise.css">
         ';
     }
 
