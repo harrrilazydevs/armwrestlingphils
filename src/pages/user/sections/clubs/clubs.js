@@ -23,3 +23,10 @@ $('.ecommerce_navlink').click(function () {
     $(this).addClass('shadow')
 
 })
+
+$('.shop_card').click(function () {
+    $('.page').hide()
+    $('#page_club_home').fadeToggle()
+
+    $('body').css('background','#141516')
+})

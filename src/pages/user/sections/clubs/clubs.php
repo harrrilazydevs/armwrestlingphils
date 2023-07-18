@@ -107,6 +107,46 @@
 
 <section class="page" attr-type="sub" id="page_club_home">
 
-    <h1>test</h1>
+    <div class="container d-none d-sm-none d-md-none d-lg-block" style="margin-top:-55px;">
+
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center position-relative">
+                    <img src="src\public\club_cover\tatag.png" width="80%" class="rounded" alt="">
+
+                    <h2 class=" position-absolute text-light" style="font-family: 'Oswald', sans-serif; letter-spacing: 2px; top:1.5em; font-size:30px">Arm Wrestling Clubs</h2>
+                    <p class="position-absolute text-light text-center" style="letter-spacing: .5px; font-size:11pt;top:10.5em;">
+                        Do you wanna train arm wrestling?<br>
+                        Find a club near you and...<br>
+                        Join them now
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- DYNAMIC CONTENT -->
+        <div class="row">
+            <div class="col mx-0 text-center" style="margin-top:3em; ">
+                <h5>Find a club</h5>
+                <div class="d-flex align-items-center justify-content-between mx-auto" style="width:30%;">
+                    <div class="input-group">
+                        <select class="form-select " name="" id="clb_sel_club_regions">
+                            <option value="RIZAL">RIZAL</option>
+                            <option value="DAVAO">DAVAO</option>
+                            <option value="CAVITE">CAVITE</option>
+                            <option value="MAKATI">MAKATI</option>
+                            <option value="TAGUIG">TAGUIG</option>
+                            <option value="MARIKINA">MARIKINA</option>
+                        </select>
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+    </div>
 
 </section>
