@@ -40,3 +40,15 @@ function GENERATE_COLLECTIONS_ARRAY(table, data) {
 
     collections[table] = temp_data;
 }
+
+$(document).ready(function () {
+
+    $('.page').each(function () {
+        if ($(this).attr('attr-type') == 'main') {
+            $(this).show();
+        } else {
+            $(this).hide();
+        }
+    })
+
+})

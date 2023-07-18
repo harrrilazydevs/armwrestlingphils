@@ -1,4 +1,4 @@
-<section class="page" id="page_section" style="color:#21313C!important">
+<section class="page" attr-type="main" id="page_club" style="color:#21313C!important">
 
     <div class="container d-none d-sm-none d-md-none d-lg-block" style="margin-top:-55px;">
         <div class="row">
@@ -26,7 +26,7 @@
                         <h5>Find a club</h5>
                         <div class="d-flex align-items-center justify-content-between mx-auto" style="width:30%;">
                             <div class="input-group">
-                                <select class="form-select " name="" id="">
+                                <select class="form-select " name="" id="clb_sel_club_regions">
                                     <option value="RIZAL">RIZAL</option>
                                     <option value="DAVAO">DAVAO</option>
                                     <option value="CAVITE">CAVITE</option>
@@ -45,7 +45,7 @@
                     <div class="col mx-0 " style="margin-top:4em; margin-bottom:4em;">
 
                         <h4 class="my-0">All Clubs</h4>
-                        <small class="my-0" style="color:#5c6c75c4; font-weight:500">Talk to club founder to join them</small>
+                        <small class="my-0" style="color:#5c6c75c4; font-weight:500">Talk to a club founder to join</small>
 
                         <div class="row" style="margin-top:1em">
                             <div class="col-4 mx-0">
@@ -103,4 +103,10 @@
     </div>
 
     <script src="src\pages\user\sections\clubs\clubs.js"></script>
+</section>
+
+<section class="page" attr-type="sub" id="page_club_home">
+
+    <h1>test</h1>
+
 </section>

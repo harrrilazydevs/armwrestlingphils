@@ -12,12 +12,9 @@ $(document).ready(function () {
 
 })
 
-
 function GET_PRODUCT_CATEGORY() {
 
 }
-
-
 
 $('.ecommerce_navlink').click(function () {
 

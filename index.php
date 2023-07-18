@@ -12,7 +12,7 @@ if (!array_key_exists('sesh_authorized', $_SESSION)) {
 }
 
 $_SESSION['SYS_TYPE'] = "ecommerce";
-$_SESSION['SYS_IMAGES_LOGO'] = "src\img\aw_logo.png";
+$_SESSION['SYS_IMAGES_LOGO'] = "src/img\aw_logo.png";
 
 
 ?>
@@ -27,6 +27,7 @@ $_SESSION['SYS_IMAGES_LOGO'] = "src\img\aw_logo.png";
 
     <link rel="stylesheet" href="src/lib/bootstrap/bs5/bs.css">
     <link rel="stylesheet" href="src/lib/fontawesome/css/all.css">
+    <link rel="icon" type="image/x-icon" href="src/img/philippines-flag-icon.svg">
 
     <?php
     if ($_SESSION['sesh_access_level'] == 1 && $_SESSION['sesh_authorized'] == 1) {
