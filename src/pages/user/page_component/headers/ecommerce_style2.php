@@ -1,6 +1,6 @@
 <section class=" d-none d-sm-none d-md-none d-lg-block">
 
-    <div class="d-flex align-items-center" style="background:#101419; height:6vh;">
+    <div class="d-flex align-items-center header_design" >
         <div class="container-fluid">
             <div class="row">
                 <div class="col justify-content-between">

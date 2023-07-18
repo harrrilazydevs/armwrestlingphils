@@ -29,4 +29,5 @@ $('.shop_card').click(function () {
     $('#page_club_home').fadeToggle()
 
     $('body').css('background','#141516')
+    $('.btn_hover_effect_dark').css('')
 })
